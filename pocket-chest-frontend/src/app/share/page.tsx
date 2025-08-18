@@ -255,7 +255,7 @@ export default function SharePage() {
                   </button>
                 </div>
                 <p className="text-xs text-gray-500">
-                  Recipients can use this code at {window.location.origin}/retrieve
+                  Recipients can use this code at https://files.dashen.edu.kg/retrieve
                 </p>
               </div>
               
