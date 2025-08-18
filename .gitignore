@@ -12,11 +12,6 @@ build/
 build/Release
 
 # Environment files - IMPORTANT for open source
-.env
-.env.*
-.env.local
-.env.production
-.env.development
 !.env.example
 !.env.*.template
 
@@ -64,7 +59,6 @@ Thumbs.db
 desktop.ini
 
 # IDE files
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -160,7 +154,6 @@ tmp/
 temp/
 
 # Editor directories and files
-.vscode/*
 !.vscode/extensions.json
 .idea
 *.suo
@@ -177,3 +170,4 @@ temp/
 wrangler.toml.backup
 .dev.vars*
 !.dev.vars.example 
+config.bat
